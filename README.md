@@ -14,7 +14,7 @@
 </p>
 
 # Purpose
-Track the amount of online users for a given subreddit you choose every time interval, and save that data to display on a graph.
+Track the amount of online users for a given subreddit you provide every time interval, and save that data to display on a graph.
 
 ## Instructions: Getting Started
 First, you'll want to set up your credentials to use the Reddit API. You'll notice at the bottom of the script *subreddit_onlineusers_collector.py* you'll see:
