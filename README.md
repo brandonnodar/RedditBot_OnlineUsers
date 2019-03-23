@@ -39,6 +39,7 @@ This script will collect the online user count of the given subreddit you provid
 
 It will create a file in this directory using this naming convention: 
 *SUBREDDIT_DATE.txt*
+
 This file stores all the data you've collected, and is used later by *subreddit_onlineusers_grapher.py*
 
 In the *SUBREDDIT_DATE.txt* you will see the data:
