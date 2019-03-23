@@ -35,9 +35,9 @@ subreddit_onlineusers_grapher.py
 
 ## Instructions: Subreddit_OnlineUsers_Collector.py
 This script will collect the online user count of the given subreddit you provide, and store the data in a text file. You will notice it'll create a directory on your desktop:
-* ~/Desktop/RedditBot_OnlineUsers/SUBREDDIT_subreddit_onlineusers/*
+* /Desktop/RedditBot_OnlineUsers/SUBREDDIT_subreddit_onlineusers/ *
 
-It will create a file in this directory using this naming convention: *SUBREDDIT_DATE.txt*
+It will create a file in this directory using this naming convention: * SUBREDDIT_DATE.txt *
 This file stores all the data you've collected, and is used later by *subreddit_onlineusers_grapher.py*
 
 In the *SUBREDDIT_DATE.txt* you will see the data:
