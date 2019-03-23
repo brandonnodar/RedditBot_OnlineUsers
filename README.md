@@ -13,6 +13,10 @@
   <a href="#future-features">Future Features</a>
 </p>
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/tinyqubit/RedditBot_OnlineUsers/master/Images/Example_Plot_1.png" alt="Reddit" width="700">
+</p>
+
 # Purpose
 Track the amount of online users for a given subreddit you provide every time interval, and save that data to display on a graph.
 
