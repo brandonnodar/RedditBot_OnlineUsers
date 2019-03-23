@@ -62,7 +62,7 @@ You can edit these variables to your preference.
 # The name of the subreddit you want to use.
 (string) subreddit_name
 
-# The time in seconds between checking the online user count.
+# The time in seconds between checking the online user count. The default is 60 seconds.
 (int) sleep_time
 ```
 
