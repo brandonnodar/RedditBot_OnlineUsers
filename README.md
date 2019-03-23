@@ -26,6 +26,7 @@ https://www.youtube.com/watch?v=NRgfgtzIhBQ
 
 <hr>
 
+Once you've set up your credentials, you can run the program.
 There are 2 scripts involved.
 ```
 subreddit_onlineusers_collector.py
@@ -33,4 +34,31 @@ subreddit_onlineusers_grapher.py
 ```
 
 ## Instructions: Subreddit_OnlineUsers_Collector.py
-You'll want
+This script will collect the online user count of the given subreddit you provide, and store the data in a text file. You will notice it'll create a directory on your desktop:
+* ~/Desktop/RedditBot_OnlineUsers/SUBREDDIT_subreddit_onlineusers/*
+
+It will create a file in this directory using this naming convention:
+*SUBREDDIT_DATE.txt*
+This file stores all the data you've collected, and is used later by *subreddit_onlineusers_grapher.py*
+
+In the *SUBREDDIT_DATE.txt* you will see the data:
+```
+13:15:43,2274
+13:15:54,2274
+13:16:04,2274
+13:16:15,2283
+```
+It includes the time that the data was collected at, and the online user count at that time.
+
+<hr>
+
+You can edit these variables to your preference.
+```python
+# The name of the subreddit you want to use.
+(string) subreddit_name
+
+# The time in seconds between checking the online user count.
+(int) sleep_time
+```
+
+
