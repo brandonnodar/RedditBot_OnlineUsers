@@ -66,4 +66,17 @@ You can edit these variables to your preference.
 (int) sleep_time
 ```
 
+## Instructions: Subreddit_OnlineUsers_Grapher.py
+This script will use the collected data in the text file *SUBREDDIT_DATE.txt* to display the data on a graph.
+
+You can edit these variables to your preference.
+```python
+# The name of the subreddit you want to use.
+(string) subreddit_name
+
+# The date of data you want to collect. Use format MM-DD-YYYY
+(string) date_to_collect
+```
+
+*_Please note that these variables above are used to grab the text file, so make sure the names and dates are correct to what you have saved in the directory._*
 
