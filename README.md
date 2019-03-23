@@ -81,7 +81,7 @@ You can edit these variables to your preference.
 **Please note that these variables above are used to grab the text file, so make sure the names and dates are correct to what you have saved in the directory.**
 
 ## Example Graph Output
-This displays the online user count over time. The time format is HOUR:MINUTE:SECOND
+This displays the online user count over time. The time format is *HOUR:MINUTE:SECOND*
 <p align="center">
 <img src="https://raw.githubusercontent.com/tinyqubit/RedditBot_OnlineUsers/master/Images/Example_Plot_1.png" alt="Reddit" width="700">
 </p>
