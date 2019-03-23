@@ -78,5 +78,5 @@ You can edit these variables to your preference.
 (string) date_to_collect
 ```
 
-*_Please note that these variables above are used to grab the text file, so make sure the names and dates are correct to what you have saved in the directory._*
+**Please note that these variables above are used to grab the text file, so make sure the names and dates are correct to what you have saved in the directory.**
 
