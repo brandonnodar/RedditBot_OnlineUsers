@@ -80,3 +80,29 @@ You can edit these variables to your preference.
 
 **Please note that these variables above are used to grab the text file, so make sure the names and dates are correct to what you have saved in the directory.**
 
+## Example Graph Output
+This displays the online user count over time.
+<p align="center">
+<img src="https://raw.githubusercontent.com/tinyqubit/RedditBot_OnlineUsers/master/Images/Example_Plot_1.png" alt="Reddit" width="700">
+</p>
+
+## Libraries Used
+subreddit_onlineusers_collector.py
+```
+praw
+datetime
+csv
+os.path
+```
+
+subreddit_onlineusers_grapher.py
+```
+numpy
+matplotlib
+csv
+os.path
+```
+
+## Future Features
+- Ability to ask user for variable values through the console instead of going into the script to change them.
+- Ability to track multiple subreddits at the same time.
