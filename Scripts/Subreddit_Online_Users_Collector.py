@@ -6,10 +6,10 @@ import os.path
 
 # EDITABLE
 subreddit_name = 'gamedev' # !!Must be exactly as written in Reddit.
-sleep_time = 10 # How many seconds between checking?
+sleep_time = 60 # How many seconds between checking?
 
 # BE CAUTIOUS EDITING.
-directory_path = "~/Desktop/Reddit_Bot/" + str(subreddit_name) + "_subreddit_onlineusers/"
+directory_path = "~/Desktop/RedditBot_OnlineUsers/" + str(subreddit_name) + "_subreddit_onlineusers/"
 
 def CheckCurrentDate():
     global start_date
