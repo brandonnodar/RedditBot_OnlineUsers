@@ -9,7 +9,7 @@
 <p align="center">
   <a href="#instructions">Instructions</a> •
   <a href="#instructions-getting-started">Getting Started</a> •
-  <a href="#instructions-subreddit-online-users">Online Users</a> •
+  <a href="#instructions-subreddit_onlineusers_collector.py">Online Users</a> •
   <a href="#future-features">Future Features</a>
 </p>
 
