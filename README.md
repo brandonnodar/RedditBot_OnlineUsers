@@ -106,3 +106,7 @@ os.path
 ## Future Features
 - Ability to ask user for variable values through the console instead of going into the script to change them.
 - Ability to track multiple subreddits at the same time.
+
+## You May Also Like...
+Reddit Bot: Posts Up Votes Grabber
+https://github.com/TinyQubit/RedditBot_PostsUpVotesGrabber
