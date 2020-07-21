@@ -42,7 +42,7 @@ def WriteToFile(_online_users, _readable_time):
         filewriter.writerow([_readable_time, _online_users])
         csvFile.close()
 
-def LetsRunThisThang():
+def RunProgram():
     global subreddit
     global subreddit_name
 
@@ -57,7 +57,7 @@ def LetsRunThisThang():
     print("\n" + str(subreddit_name) + " has " + str(online_users) + " users online as of " + str(readable_time))
     print("CURRENT CALLS: " + str(reddit.auth.limits) + "\n--------------------\n")
     time.sleep(sleep_time)
-    LetsRunThisThang()
+    RunProgram()
 
 # PROGRAM EXECUTION STARTS HERE.
 reddit = praw.Reddit(client_id = 'CLIENT_ID', client_secret = 'CLIENT_SECRET', username = 'USERNAME', password = 'PASSWORD', user_agent = 'USER_AGENT')
@@ -66,4 +66,4 @@ subreddit = reddit.subreddit(subreddit_name)
 start_date = dt.datetime.now().strftime("%m-%d-%Y")
 
 CheckForDirectory()
-LetsRunThisThang()
+RunProgram()
